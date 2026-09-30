@@ -1,0 +1,10 @@
+{
+  "description": "Official Arabic website for a prestigious Egyptian cultural award offering event info, registration, archives, and contact with elegant, user-friendly design.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
