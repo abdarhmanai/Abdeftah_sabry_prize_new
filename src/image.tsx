@@ -8,6 +8,7 @@ const images: string[] = [
   'https://picsum.photos/id/1025/300/200',
   'https://picsum.photos/id/1035/300/200',
   'https://picsum.photos/id/1043/300/200',
+  
 ];
 
 export const ImageSlider: React.FC = () => {

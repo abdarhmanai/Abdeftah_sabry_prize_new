@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const awardLogo ="/awardLogo.jpg";
+const awardLogo ="https://i.postimg.cc/dVjgT675/award-Logo.jpg" ;
 
 
 
@@ -16,10 +16,10 @@ const PATTERN_IMG =
 const EDITION_IMGS = [
   "https://images.unsplash.com/photo-1601411972811-a77044c3a428?w=600&h=400&fit=crop&auto=format",
   "https://images.unsplash.com/photo-1600790258862-5ed166ad35a2?w=600&h=400&fit=crop&auto=format",
-  "/prize2025.png",
-  "/prize2024.png",
-  "/prize2023.jpg",
-  "/prize2022.jpg"
+  "https://i.postimg.cc/Jz5SBxD8/prize2025.png",
+  "https://i.postimg.cc/cLBP8hgN/prize2024.png",
+  "https://i.postimg.cc/Gmx6sKBS/prize2023.jpg",
+  "https://i.postimg.cc/ht1N7sJy/prize2022.jpg"
 ];
 
 const GoldDivider = ({ className = "" }: { className?: string }) => (
@@ -106,7 +106,7 @@ function Navbar({
           style={{ display: "flex", alignItems: "center", gap: "0.85rem", background: "none", border: "none", cursor: "pointer" }}
         >
           <img
-            src={awardLogo}
+            src="https://i.postimg.cc/dVjgT675/award-Logo.jpg" 
             alt="شعار جائزة عبد الفتاح صبري للقصة القصيرة"
             style={{
               width: 55,
@@ -940,7 +940,7 @@ function AboutPage() {
             }}
           >
             <img
-              src="/abdelfatah.png"
+              src="https://i.postimg.cc/fRf10C3B/abdelfatah.png"
               alt="مكتبة ثقافية أنيقة"
               style={{
                 width: "100%",
