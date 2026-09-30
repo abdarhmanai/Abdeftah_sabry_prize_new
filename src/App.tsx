@@ -1,5 +1,9 @@
 import { useState, useEffect } from "react";
-import awardLogo from "@/imports/images.jpg";
+
+const awardLogo = "/awardLogo.jpg";
+
+
+
 
 type Page = "home" | "about" | "register" | "editions" | "contact";
 
@@ -1180,7 +1184,7 @@ function AboutPage() {
                     position: "absolute",
                     right: "50%",
                     top: "1.25rem",
-                    transform: "translate(50%, -50%)",
+                    //transform: "translate(50%, -50%)",
                     width: 10,
                     height: 10,
                     background: "#c9a84c",
